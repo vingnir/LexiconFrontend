@@ -219,7 +219,9 @@ ol:nth-child(2) {
 	display: inline-block;
 	border-radius: 5px;
 }
-
+#form-wrap{
+	width:70%;
+}
 #user-form {
 	min-height: 40%;
 	padding: 5px;

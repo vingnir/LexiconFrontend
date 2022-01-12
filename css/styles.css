@@ -41,6 +41,7 @@ body {
 	max-width: 1024px;
 	background-color: #f1f1f1;
 	height: 100vh;
+	color: #665050;
 }
 
 .header {
@@ -122,10 +123,7 @@ body {
 	margin-left: 15%;
 }
 
-#main-nav-login-icon img {
-	height: 80%;
-	color: grey;
-}
+
 
 
 /**************************CONTENT********************************************/
@@ -166,10 +164,7 @@ body {
 	padding: 0.2em 1em 1em 1em;
 }
 
-ol:nth-child(2) {
-	background: #f1f1f1;
-	border-radius: 10px;
-}
+
 
 .content-aside {
 	width: 25%;
@@ -188,6 +183,10 @@ ol:nth-child(2) {
 
 .content-aside ul {
 	list-style-type: circle;
+}
+
+.content-aside ol{
+	list-style-type: upper-roman;
 }
 
 #footer {
